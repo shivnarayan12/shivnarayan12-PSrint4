@@ -1,0 +1,35 @@
+[
+  {
+    "testCase": "Positive - Laptop",
+    "productId": 101,
+    "productName": "Laptop",
+    "price": 75000,
+    "expectedStatus": 200
+  },
+  {
+    "testCase": "Positive - Mobile",
+    "productId": 102,
+    "productName": "Mobile",
+    "price": 25000,
+    "expectedStatus": 200
+  },
+  {
+    "testCase": "Positive - SmartWatch",
+    "productId": 103,
+    "productName": "SmartWatch",
+    "price": 5000,
+    "expectedStatus": 200
+  },
+  {
+    "testCase": "Negative - Missing Product Name",
+    "productId": 104,
+    "price": 2000,
+    "expectedStatus": 400
+  },
+  {
+    "testCase": "Negative - Missing ID",
+    "productName": "Keyboard",
+    "price": 500,
+    "expectedStatus": 400
+  }
+]

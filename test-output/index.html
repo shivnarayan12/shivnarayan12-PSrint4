@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-API_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">API Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-API_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Lenovo\Downloads\Sprint4Deliverables- Christy Henitha - TTP1QESA2527 - Group 1\Sprint_4\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-API_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-API_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-API_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-API_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-API_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-API_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-API_Test_Suite" class="hide-methods failed suite-API_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-API_Test_Suite -->
+                      <a href="#" panel-name="suite-API_Test_Suite" class="show-methods failed suite-API_Test_Suite"> (show)</a> <!-- show-methods failed suite-API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-API_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="tests.ProductAddTests" class="method navigator-link" hash-for-method="testAddProduct({&quot;price&quot;:500,&quot;expectedStatus&quot;:400,&quot;productName&quot;:&quot;Keyboard&quot;,&quot;testCase&quot;:&quot;Negative - Missing ID&quot;})">testAddProduct({"price":500,"expectedStatus":400,"productName":"Keyboard","testCase":"Negative - Missing ID"})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="tests.ProductAddTests" class="method navigator-link" hash-for-method="testAddProduct({&quot;productId&quot;:104,&quot;price&quot;:2000,&quot;expectedStatus&quot;:400,&quot;testCase&quot;:&quot;Negative - Missing Product Name&quot;})">testAddProduct({"productId":104,"price":2000,"expectedStatus":400,"testCase":"Negative - Missing Product Name"})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-API_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_Test_Suite" class="hide-methods passed suite-API_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-API_Test_Suite -->
+                      <a href="#" panel-name="suite-API_Test_Suite" class="show-methods passed suite-API_Test_Suite"> (show)</a> <!-- show-methods passed suite-API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-API_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="tests.ProductAddTests" class="method navigator-link" hash-for-method="testAddProduct({&quot;productId&quot;:102,&quot;price&quot;:25000,&quot;expectedStatus&quot;:200,&quot;productName&quot;:&quot;Mobile&quot;,&quot;testCase&quot;:&quot;Positive - Mo...)">testAddProduct({"productId":102,"price":25000,"expectedStatus":200,"productName":"Mobile","testCase":"Positive - Mo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="tests.ProductAddTests" class="method navigator-link" hash-for-method="testAddProduct({&quot;productId&quot;:101,&quot;price&quot;:75000,&quot;expectedStatus&quot;:200,&quot;productName&quot;:&quot;Laptop&quot;,&quot;testCase&quot;:&quot;Positive - La...)">testAddProduct({"productId":101,"price":75000,"expectedStatus":200,"productName":"Laptop","testCase":"Positive - La...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="tests.ProductAddTests" class="method navigator-link" hash-for-method="testAddProduct({&quot;productId&quot;:103,&quot;price&quot;:5000,&quot;expectedStatus&quot;:200,&quot;productName&quot;:&quot;SmartWatch&quot;,&quot;testCase&quot;:&quot;Positive -...)">testAddProduct({"productId":103,"price":5000,"expectedStatus":200,"productName":"SmartWatch","testCase":"Positive -...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="tests.ProductDELETETest" class="method navigator-link" hash-for-method="testDeleteProductById">testDeleteProductById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="tests.ProductPUTTest" class="method navigator-link" hash-for-method="testUpdateProduct">testUpdateProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="tests.ProductGETTests" class="method navigator-link" hash-for-method="testViewAllProducts">testViewAllProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="tests.ProductGETTests" class="method navigator-link" hash-for-method="testViewProductById">testViewProductById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="tests.ProductGETTests" class="method navigator-link" hash-for-method="testViewProductByName">testViewProductByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API_Test_Suite" class="panel API_Test_Suite">
+          <div class="suite-API_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ProductAddTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProduct({&quot;price&quot;:500,&quot;expectedStatus&quot;:400,&quot;productName&quot;:&quot;Keyboard&quot;,&quot;testCase&quot;:&quot;Negative - Missing ID&quot;})">
+                  </a> <!-- testAddProduct({"price":500,"expectedStatus":400,"productName":"Keyboard","testCase":"Negative - Missing ID"}) -->
+                  <span class="method-name">testAddProduct</span>
+                  <span class="parameters">({"price":500,"expectedStatus":400,"productName":"Keyboard","testCase":"Negative - Missing ID"})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at tests.ProductAddTests.testAddProduct(ProductAddTests.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProduct({&quot;productId&quot;:104,&quot;price&quot;:2000,&quot;expectedStatus&quot;:400,&quot;testCase&quot;:&quot;Negative - Missing Product Name&quot;})">
+                  </a> <!-- testAddProduct({"productId":104,"price":2000,"expectedStatus":400,"testCase":"Negative - Missing Product Name"}) -->
+                  <span class="method-name">testAddProduct</span>
+                  <span class="parameters">({"productId":104,"price":2000,"expectedStatus":400,"testCase":"Negative - Missing Product Name"})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at tests.ProductAddTests.testAddProduct(ProductAddTests.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test_Suite-class-failed -->
+          <div class="suite-API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductGETTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewAllProducts">
+                  </a> <!-- testViewAllProducts -->
+                  <span class="method-name">testViewAllProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewProductById">
+                  </a> <!-- testViewProductById -->
+                  <span class="method-name">testViewProductById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewProductByName">
+                  </a> <!-- testViewProductByName -->
+                  <span class="method-name">testViewProductByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test_Suite-class-passed -->
+          <div class="suite-API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductDELETETest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteProductById">
+                  </a> <!-- testDeleteProductById -->
+                  <span class="method-name">testDeleteProductById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test_Suite-class-passed -->
+          <div class="suite-API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductAddTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProduct({&quot;productId&quot;:102,&quot;price&quot;:25000,&quot;expectedStatus&quot;:200,&quot;productName&quot;:&quot;Mobile&quot;,&quot;testCase&quot;:&quot;Positive - Mo...)">
+                  </a> <!-- testAddProduct({"productId":102,"price":25000,"expectedStatus":200,"productName":"Mobile","testCase":"Positive - Mo...) -->
+                  <span class="method-name">testAddProduct</span>
+                  <span class="parameters">({"productId":102,"price":25000,"expectedStatus":200,"productName":"Mobile","testCase":"Positive - Mobile"})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProduct({&quot;productId&quot;:101,&quot;price&quot;:75000,&quot;expectedStatus&quot;:200,&quot;productName&quot;:&quot;Laptop&quot;,&quot;testCase&quot;:&quot;Positive - La...)">
+                  </a> <!-- testAddProduct({"productId":101,"price":75000,"expectedStatus":200,"productName":"Laptop","testCase":"Positive - La...) -->
+                  <span class="method-name">testAddProduct</span>
+                  <span class="parameters">({"productId":101,"price":75000,"expectedStatus":200,"productName":"Laptop","testCase":"Positive - Laptop"})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProduct({&quot;productId&quot;:103,&quot;price&quot;:5000,&quot;expectedStatus&quot;:200,&quot;productName&quot;:&quot;SmartWatch&quot;,&quot;testCase&quot;:&quot;Positive -...)">
+                  </a> <!-- testAddProduct({"productId":103,"price":5000,"expectedStatus":200,"productName":"SmartWatch","testCase":"Positive -...) -->
+                  <span class="method-name">testAddProduct</span>
+                  <span class="parameters">({"productId":103,"price":5000,"expectedStatus":200,"productName":"SmartWatch","testCase":"Positive - SmartWatch"})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test_Suite-class-passed -->
+          <div class="suite-API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductPUTTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateProduct">
+                  </a> <!-- testUpdateProduct -->
+                  <span class="method-name">testUpdateProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test_Suite-class-passed -->
+        </div> <!-- panel API_Test_Suite -->
+        <div panel-name="test-xml-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Lenovo\Downloads\Sprint4Deliverables- Christy Henitha - TTP1QESA2527 - Group 1\Sprint_4\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;API Test Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Product API Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ProductAddTests&quot;/&gt;
+      &lt;class name=&quot;tests.ProductGETTests&quot;/&gt;
+      &lt;class name=&quot;tests.ProductPUTTest&quot;/&gt;
+      &lt;class name=&quot;tests.ProductDELETETest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Product API Tests --&gt;
+&lt;/suite&gt; &lt;!-- API Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Product API Tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_Test_Suite');
+function tableData_API_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAddProduct')
+data.setCell(0, 2, 'tests.ProductAddTests')
+data.setCell(0, 3, 3734);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testViewAllProducts')
+data.setCell(1, 2, 'tests.ProductGETTests')
+data.setCell(1, 3, 199);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAddProduct')
+data.setCell(2, 2, 'tests.ProductAddTests')
+data.setCell(2, 3, 170);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAddProduct')
+data.setCell(3, 2, 'tests.ProductAddTests')
+data.setCell(3, 3, 129);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testViewProductByName')
+data.setCell(4, 2, 'tests.ProductGETTests')
+data.setCell(4, 3, 126);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAddProduct')
+data.setCell(5, 2, 'tests.ProductAddTests')
+data.setCell(5, 3, 125);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testAddProduct')
+data.setCell(6, 2, 'tests.ProductAddTests')
+data.setCell(6, 3, 120);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testViewProductById')
+data.setCell(7, 2, 'tests.ProductGETTests')
+data.setCell(7, 3, 117);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testUpdateProduct')
+data.setCell(8, 2, 'tests.ProductPUTTest')
+data.setCell(8, 3, 114);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDeleteProductById')
+data.setCell(9, 2, 'tests.ProductDELETETest')
+data.setCell(9, 3, 113);
+window.suiteTableData['API_Test_Suite']= { tableData: data, tableDiv: 'times-div-API_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-API_Test_Suite">
+              </div> <!-- times-div-API_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductAddTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddProduct({"productId":101,"price":75000,"expectedStatus":200,"productName":"Laptop","testCase":"Positive - La...)</span>
+                <span class="method-start">897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddProduct({"productId":102,"price":25000,"expectedStatus":200,"productName":"Mobile","testCase":"Positive - Mo...)</span>
+                <span class="method-start">4637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddProduct({"productId":103,"price":5000,"expectedStatus":200,"productName":"SmartWatch","testCase":"Positive -...)</span>
+                <span class="method-start">4764 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddProduct({"productId":104,"price":2000,"expectedStatus":400,"testCase":"Negative - Missing Product Name"})</span>
+                <span class="method-start">4887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddProduct({"price":500,"expectedStatus":400,"productName":"Keyboard","testCase":"Negative - Missing ID"})</span>
+                <span class="method-start">5062 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductGETTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5198 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testViewAllProducts</span>
+                <span class="method-start">5199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testViewProductById</span>
+                <span class="method-start">5401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testViewProductByName</span>
+                <span class="method-start">5519 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductPUTTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5648 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateProduct</span>
+                <span class="method-start">5650 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductDELETETest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5766 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteProductById</span>
+                <span class="method-start">5767 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

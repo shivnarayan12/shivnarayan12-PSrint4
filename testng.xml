@@ -1,0 +1,11 @@
+
+<suite name="API Test Suite">
+    <test name="Product API Tests">
+        <classes>
+            <class name="tests.ProductAddTests"/>
+            <class name="tests.ProductGETTests"/>
+            <class name="tests.ProductPUTTest"/>
+            <class name="tests.ProductDELETETest"/>
+        </classes>
+    </test>
+</suite>
